@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# My own files
+atlassian-git-cheatsheet.pdf
+cppbuch/
