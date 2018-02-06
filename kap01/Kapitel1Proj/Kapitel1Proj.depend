@@ -1,7 +1,12 @@
 # depslib dependency file v1.0
-1517576070 source:d:\documents\cpp-tut\kap01\kapitel1proj\main.cpp
+1517941588 source:d:\documents\cpp-tut\kap01\kapitel1proj\main.cpp
 	<iostream>
 	<fstream>
 	<iomanip>
 	<math.h>
+	<mathexpr.h>
+
+1517943280 d:\documents\cpp-tut\kap01\include\mathexpr.h
+	<iostream>
+	<cmath>
 

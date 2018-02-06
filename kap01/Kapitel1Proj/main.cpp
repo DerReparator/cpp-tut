@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iomanip>
 #include <math.h>
+#include <mathexpr.h>
 
 using namespace std;
 
@@ -11,6 +12,8 @@ double f(double x){
 
 int main()
 {
+    mathexpr meinMathe;
+    system("pause");
     const double epsilon = 1e-6;
     fstream file;
     file << setiosflags(ios::fixed);
