@@ -1,0 +1,10 @@
+/**
+ *	My solution for Uebung 1.6 (p. 83).
+ **/
+
+a)	die Zählvariable wird nicht verändert, somit terminiert die Schelife (Wenn sie überhaupt anläuft) nie!
+
+b)	Wenn i ungerade ist, wird es nie == 0 => keine Terminierung!
+	Wenn i keine ganze Zahl ist => möglicherweise Probleme mit Ungenauigkeit.
+
+c)	Terminiert nur wenn i == 0, das ist nie der Fall, wenn i mit >= 0 vorbelegt ist.

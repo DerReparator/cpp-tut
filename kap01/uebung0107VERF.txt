@@ -1,0 +1,14 @@
+/**
+ *	My solution for Uebung 1.7 (p. 83).
+ *	VERIFIED: alles auf Anhieb richtig!
+ **/
+
+a)	hier wird der Summand 1 fehlen, da die Zählvariable vor dem Aufaddieren auf "summe" inkrementiert wird.
+
+b)	sum wird immer wieder auf 0 zurückgesetzt! und der Summand 1 würde wieder fehlen.
+
+c)	Funktioniert nicht, da "sum += n;" nicht Teil der while-Schleife ist.
+
+d)	funktionert nicht, da 0100 eine Oktalzahl ist (64)10.
+
+e)	funktioniert
