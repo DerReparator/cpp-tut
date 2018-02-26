@@ -50,7 +50,7 @@ int main(void){
     }
   }
   
-  for(struct StudentIn s : studenten){
+  for(auto s : studenten){
     cout << s.name << " | " << s.matNr << '\n';
   }
   
@@ -59,13 +59,13 @@ int main(void){
   do{
     gefunden = false;
     cout << "Hier MatNr. zum Abfragen eingeben: ";
-    getline(cin, matNrAbfrage);
+    cin >> matNrAbfrage
     
     if(matNrAbfrage == "x" || matNrAbfrage == "X"){
       exit(-1);
     }
     
-    for(struct StudentIn s : studenten){
+    for(auto s : studenten){
       if(s.matNr == matNrAbfrage){
         cout << s.name << '\n';
         gefunden = true;
