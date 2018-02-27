@@ -1,0 +1,2 @@
+Die Klammer um x [ (x) ] wird benötigt, falls x negativ sein sollte.
+Die Klammer um den gesamten Ausdruck wird benötigt, weil er so von der Umgebung abgeschirmt wird.
