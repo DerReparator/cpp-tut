@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1519916609 source:c:\users\phil\documents\c_plus_plus\kap03\kapitel3proj\kapitel3proj\main.cpp
+	"Person.h"
+	<iostream>
+
+1519917071 c:\users\phil\documents\c_plus_plus\kap03\kapitel3proj\kapitel3proj\include\person.h
+	<string>
+
+1519917139 source:c:\users\phil\documents\c_plus_plus\kap03\kapitel3proj\kapitel3proj\src\person.cpp
+	"Person.h"
+
