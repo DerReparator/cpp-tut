@@ -34,11 +34,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="daten.txt" />
 		<Unit filename="include/IntMenge.h" />
 		<Unit filename="include/Person.h" />
+		<Unit filename="include/PersonalPerson.h" />
+		<Unit filename="include/Personalverwaltung.h" />
+		<Unit filename="include/Taschenrechner.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/IntMenge.cpp" />
 		<Unit filename="src/Person.cpp" />
+		<Unit filename="src/Personalverwaltung.cpp" />
+		<Unit filename="src/Taschenrechner.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

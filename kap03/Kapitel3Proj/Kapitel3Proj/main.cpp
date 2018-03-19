@@ -4,9 +4,13 @@
 
 #include "Person.h"
 #include "IntMenge.h"
+#include "Personalverwaltung.h"
+#include "Taschenrechner.h"
 
 //#define PERSON_TEST
-#define INTMENGE_TEST
+//#define INTMENGE_TEST
+//#define PERSONALVERWALTUNG_TEST
+#define TASCHENRECHNER_TEST
 
 int main()
 {
@@ -35,4 +39,29 @@ int main()
     }
     std::cout << "Anzahl=" << menge.size() << " Minimum=" << menge.getMin() << " Maximum=" << menge.getMax() << std::endl;/**/
 #endif // INTMENGE_TEST
+
+#ifdef PERSONALVERWALTUNG_TEST
+    Personalverwaltung personalverwaltung("daten.txt");
+    std::cout << "Gelesene Namen und Personalnummern:\n";
+    personalverwaltung.ausgeben();
+    personalverwaltung.dialog();
+    std::cout << "Programmende!\n";
+#endif
+
+#ifdef TASCHENRECHNER_TEST
+    while(true){
+        std::cout << "Bitte einen mathematischen Ausdruck eingeben, z.B. 4*(13+2)"
+        << "\n(Abbruch durch Eingabe einer Leerzeile) : ";
+        std::string anfrage;
+        getline(std::cin, anfrage);
+
+        if(anfrage.length() > 0) {
+            Taschenrechner tr(anfrage);
+            std::cout << "\nDas Ergebnis der Anfrage '"
+            << tr.getAnfrage() << "' ist "
+            << tr.getErgebnis() << '\n';
+        }
+        else break;
+    }
+#endif // TASCHENRECHNER_TEST
 }
